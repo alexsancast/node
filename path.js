@@ -1,5 +1,11 @@
 const path = require('path');
-const filePath = path.join('public' , 'dist' , 'styles');
-console.log(filePath);
+const filePath = path.join('public' , 'dist' , 'styles' , 'main.css');
 
-console.log(path.basename(filePath))
+
+
+console.log(filePath);
+console.log(path.basename(filePath));
+console.log(path.dirname(filePath));
+console.log(path.parse(filePath));
+console.log(path.resolve(filePath));
+
